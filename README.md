@@ -1,2 +1,2 @@
 # ML_Theory
-Repo for ML lab 
+This repo contains the necessary syntax and important functions required for libraries used in ML

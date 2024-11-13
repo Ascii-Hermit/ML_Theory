@@ -52,11 +52,6 @@ class NaiveBayesTextClassifier:
         return predictions
 
 
-
-
-
-
-
 # Sample data
 X_train = np.array(["I love programming", "Python is amazing", "I dislike bugs", "Debugging is fun"])
 y_train = np.array([1, 1, 0, 0])

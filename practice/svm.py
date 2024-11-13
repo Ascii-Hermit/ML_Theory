@@ -29,8 +29,8 @@ class SVM:
 
 
     def predict(self, X):
-        approx = np.dot(X, self.w) - self.b
-        return np.sign(approx)
+        f_x = np.dot(X, self.w) - self.b
+        return np.sign(f_x)
 
 
 # Testing

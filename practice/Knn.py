@@ -92,6 +92,7 @@ class KNN:
         k_label = [self.y_train[i] for i in k_ind]
         counter = Counter(k_label)
         return counter.most_common()[0][0]
+    
     def euclidean_dist(self,x,y):
         return np.sqrt(np.sum((x-y)**2))
     
